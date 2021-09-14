@@ -1,4 +1,7 @@
-const Student_Data = [{"id":1,"name":"Antonin Duham","class":12,"gender":"Female","marks_of_final_year":67.78},
+// Data of all the students (Total: 100 students)
+// Data format: { id, name, class, gender, marks of final year}
+
+export const Student_Data = [{"id":1,"name":"Antonin Duham","class":12,"gender":"Female","marks_of_final_year":67.78},
 {"id":2,"name":"Sigismondo Carnall","class":12,"gender":"Male","marks_of_final_year":99.16},
 {"id":3,"name":"Emery Clayson","class":12,"gender":"Female","marks_of_final_year":70.34},
 {"id":4,"name":"Laurene Heisler","class":9,"gender":"Male","marks_of_final_year":97.57},

@@ -1,0 +1,47 @@
+/* Styling of table */
+table {
+  width: 100%;
+  background-color: wheat;
+  text-align: center;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+/* Styling to show alternate colour */
+table tr:nth-of-type(even) {
+  background-color: darkkhaki;
+}
+
+table tr:hover {
+  color: white;
+  background-color: #a18833;
+}
+
+/* Styling for header */
+table th {
+  color: rgb(190, 229, 255);
+  font-weight: 800;
+  height: 70px;
+  background-color: purple;
+  border: 1px solid black;
+}
+
+/* Styling the sorting part */
+#headerContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#sortingIcon {
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Styling for footer */
+table td {
+  height: 50px;
+  font-size: 14px;
+  border: 1px solid black;
+}
